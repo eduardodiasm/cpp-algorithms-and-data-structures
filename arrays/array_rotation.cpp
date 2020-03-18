@@ -12,6 +12,16 @@ void singly_left_rotate(int array[], int size)
     array[size-1] = temp;
 }
 
+void print_array(int array[], int n)
+{
+    for (size_t i = 0; i < n; i++)
+    {
+        cout << array[i] << " ";
+    }
+    cout << endl;
+    
+}
+
 int main(int argc, char const *argv[])
 {
 
@@ -24,11 +34,7 @@ int main(int argc, char const *argv[])
         singly_left_rotate(array, size);
     }
     
-    for (size_t i = 0; i < size; i++)
-    {
-        cout << array[i] << " ";
-    }
-    cout << "\n";
+    print_array(array, size);
 
     return 0;
 }
