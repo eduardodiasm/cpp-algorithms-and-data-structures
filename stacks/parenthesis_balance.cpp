@@ -1,4 +1,4 @@
-// Fast solution for: 
+// Fast solution to solve: 
 // https://www.urionlinejudge.com.br/judge/en/problems/view/1068
 
 
